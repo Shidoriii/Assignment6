@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+    #gallery {
+        text-align: center;
+        margin-top: 20px;
+    }
+    #gallery img {
+        max-width: 600px;
+        max-height: 400px;
+        display: none;
+    }
+    button {
+        margin: 10px;
+        padding: 10px 20px;
+    }
+  </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Image Gallery</h1>
+    <div id="gallery">
+        <img id="current-image" src="" alt="Gallery Image">
+    </div>
+    <div style="text-align: center;">
+        <button id="prev">Previous</button>
+        <button id="update">Update</button>
+        <button id="next">Next</button>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
